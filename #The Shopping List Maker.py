@@ -17,7 +17,7 @@ def shopping_list():
         choice = input("Enter your choice:  ")
         
         if choice == "1":
-            print("\n Current Inventory")
+            print("\n Current Shopping List")
             for product in products [:100]:
                 print(product)
             if len(products) > 100:
